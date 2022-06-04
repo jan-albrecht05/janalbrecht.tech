@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurvendiskussion</title>
+    <link rel="icon" href="/content/schule/mathe/analysis/bilder/parabel.png">
+    <link rel="stylesheet" href="/content/schule/mathe/analysis/css/kurve.css">
+    <link rel="stylesheet" href="/content/schule/mathe/analysis/css/dropdown.css">
+</head>
+<body>
+    <div id="heading">
+        <div class="dropdown">
+        <!--Navigation-->
+            <span><i>Inhalt</i></span>
+            <div class="dropdown-content">
+                <p>
+                    <a href="../index.htm">
+                        Home
+                    </a>
+                </p>
+                <p>
+                    <a href="/content/schule/mathe/analysis/inhalt/Differentialrechnung.html">
+                        Differentialrechnung
+                    </a>
+                </p>
+                <p>
+                    <a href="/content/schule/mathe/analysis/inhalt/Änderungsrate.html">
+                        lokale Änderungsrate
+                    </a>
+                </p>
+                <p>
+                    <a href="/content/schule/mathe/analysis/inhalt/Ableitungsregeln.html">
+                        Ableitungsregeln
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        Kurvendiskussion
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="main">
+        <div id="heading2">
+            Kurvendiskussion<br>
+            Funktion: f(x)=2x³-6x²<br>
+        </div>
+        <br>
+        <div id="table">
+            <table>
+            <!--Schnittpunkte-->
+                <tr>
+                    <td class="theorie">
+                        Schnittpunkte mit den<br>
+                        Koordinatenachsen<br><br>
+                        <div class="bed" id="bed1">
+                            y-Achse: f(x)=0
+                        </div>
+                        <div class="bed" id="bed2">
+                            x-Achse: x=0
+                        </div>
+                    </td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            Aufgabe:
+                            <div class="antwort" id="auf">
+                                0=2x<sub>n</sub>³-6x<sub>n</sub>²<br>
+                                0=x<sub>n</sub>²×(2x<sub>n</sub>-6)
+                            </div>
+                        </div>
+                        <!---->
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                        → x<sub>1,2</sub> = 0<br>
+                        → x<sub>3</sub> = 3
+                        </div>
+                        <br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                x=0
+                            </div>
+                        </div>
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                        S<sub>y</sub>(0/0)
+                        </div>
+                    </td>
+                </tr>
+            <!--Symmetrie-->
+                <tr>
+                    <td class="theorie">
+                        Symmetrie<br><br>
+                        <div class="bed" id="bed1">
+                            ist f(x)=f(-x) ?
+                        </div>
+                        <div class="bed" id="bed2">
+                            ist f(x)=-f(-x) ?
+                        </div>
+                    </td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            Aufgabe:<br>
+                            <div class="antwort" id="auf">
+                                f(-x)=-2x³-6x²
+                            </div>
+                        </div>
+                        <!---->
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                            ≠ f(x)
+                        </div>
+                        <br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                -f(-x)=2x³+6x²
+                            </div>
+                        </div>
+                            <div id="lsg">
+                            <span>Lösung:</span><br>
+                            ≠ f(x)
+                        </div>
+                        → weder <span title="Achsensymmetrisch">gerade</span> noch <span title="Punktsymmetrisch zum Ursprung (0/0)">ungerade</span>
+                    </td>
+                </tr>
+            <!--Ableitungen-->
+                <tr>
+                    <td class="theorie"  style="background-color: rgba(255, 202, 202, 0.425);">Ableitungen<br><br>
+                        <div class="bed" id="bed1">
+                            <a href="/content/schule/mathe/analysis/inhalt/Ableitungsregeln.html">→ Regeln</a>
+                        </div>
+                    </td>
+                    <td class="beispiel"  style="background-color: rgba(255, 202, 202, 0.425);">
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f'(x)= 6x²-12x<br>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f''(x)= 12x-12<br>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f'''(x)= 12<br>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            <!--Extrema-->
+                <tr>
+                    <td class="theorie">Extrema<br><br>
+                        <div class="bed" id="bed1">
+                            <large>Existenz:</large><br>
+                            → notwendige Bed.: f'(x<sub>E</sub>)=0
+                        </div>
+                        <div class="bed" id="bed1">
+                            <large>Nachweis/Art:</large><br>
+                            → hinreichende Bed.: f''(x<sub>E</sub>)≠0
+                        </div>
+                        <div class="bed" id="bed1">
+                            <large>Ordinaten:</large><br>
+                            <!--keine Theorie-->
+                            (Position der Punkte)
+                        </div>
+                    </td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            Aufgabe:<br>
+                            <div class="antwort" id="auf">
+                                0=6x<sub>E</sub>²-12x<sub>E</sub><br>
+                                0=x<sub>E</sub>×(6x<sub>E</sub>-12)
+                            </div>
+                        </div>
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                            → x<sub>E1</sub>=0<br>
+                            → x<sub>E2</sub>=2
+                        </div>
+                        <br><br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                0=12x<sub>E</sub>-12 <large id="space">|-12</large><br>
+                                -12=12x<sub>E</sub> <large id="space">|:12</large>
+                            </div>
+                        </div>
+                            <div id="lsg">
+                            <span>Lösung:</span><br>
+                            x<sub>E</sub>=-1<br>
+                            → Tiefpunkt
+                        </div>
+                        <br><br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f(0)=0<br>
+                                f(2)=-8
+                            </div>
+                        </div>
+                            <div id="lsg">
+                            <span>Lösung:</span><br>
+                            H(0/0)<br>
+                            T(2/-8)
+                        </div>
+                    </td>
+                </tr>
+            <!--Wendepunkte-->
+                <tr>
+                    <td class="theorie">Wendepunkte<br><br>
+                        <div class="bed" id="bed1">
+                            <large>Existenz:</large><br>
+                            → notwendige Bed.: f''(x<sub>W</sub>)=0
+                        </div>
+                        <div class="bed" id="bed1">
+                            <large>Nachweis/Art:</large><br>
+                            → hinreichende Bed.: f'''(x<sub>W</sub>)≠0
+                        </div>
+                        <div class="bed" id="bed1">
+                            <large>Ordinaten:</large><br>
+                            <!--keine Theorie-->
+                            (Position der Wendepunkte)
+                        </div></td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            Aufgabe:<br>
+                            <div class="antwort" id="auf">
+                                0=12x<sub>W</sub>-12  <large id="space">|+12 |:12</large><br>
+                            </div>
+                        </div>
+                        <!---->
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                            → x<sub>W</sub>=1
+                        </div>
+                        <br><br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f'''(x)=12
+                            </div>
+                        </div>
+                            <div id="lsg">
+                            <span>Lösung:</span><br>
+                            → ≠ 0 → R-L
+                        </div>
+                        <br><br>
+                        <div id="aufgabe">
+                            <div class="antwort" id="auf">
+                                f(1)=-4
+                            </div>
+                        </div>
+                            <div id="lsg">
+                            <span>Lösung:</span><br>
+                            → W(1/-4)
+                        </div>
+                    </td>
+                </tr>
+            <!--Wendetangente-->
+                <tr>
+                    <td class="theorie">Wendetengente<br><br>
+                        <div class="bed" id="bed1">
+                            f'(x)=m<br><br>
+                            y=mx+n
+                        </div></td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            Aufgabe:<br>
+                            <div class="antwort" id="auf">
+                                f'(1)= -6<br><br>
+                                -4=-6×1+n <large id="space">|+6</large><br>
+                                n=2
+                            </div>
+                        </div>
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                            t(x)=-6x+2
+                        </div>
+                    </td>
+                </tr>
+            <!--Graph-->
+                <tr>
+                    <td class="theorie">Graph</td>
+                    <td class="beispiel">
+                        <div id="aufgabe">
+                            <img id="graph" src="/content/schule/mathe/analysis/bilder/funktion.png">
+                        </div>
+                    </td>
+                </tr>
+            <!--Monotonie-->
+                <tr>
+                    <td class="theorie">Monotonie</td>
+                    <td class="beispiel">
+                        <div id="lsg2">
+                            <span>Lösung:</span><br>
+                            -∞ < x < 0 → monoton steigend<br>
+                            0 < x < 2 → monoton fallend<br>
+                            2 < x < ∞ → monoton steigend
+                        </div>
+                    </td>
+                </tr>
+            <!--Verhalten im Unendlichen-->
+                <tr>
+                    <td class="theorie">Verhalten im Unendlichen</td>
+                    <td class="beispiel">
+                        <div id="lsg">
+                            <span>Lösung:</span><br>
+                            lim f(x)= ∞<br>
+                            x→∞
+                            <br><br>
+                            lim f(x)= -∞<br>
+                            x→-∞
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

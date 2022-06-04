@@ -1,0 +1,284 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/content/schule/geschichte/zeitstrahl/hintergrund.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color:  #837c7c;
+}
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 180%;
+    position: sticky;
+    top: 0;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+.container.left {
+  left: 0;
+}
+.container.right {
+  left: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 16px;
+  z-index: 1;
+}
+.container.right::after {
+  left: -8px;
+}
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: black;
+  z-index: 1;
+}
+.container.right::before {
+  left: 8px;
+}
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.container.left .date {
+  right: -130px;
+}
+.container.right .date {
+  left: -130px;
+}
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  z-index: 1;
+}
+.container.left .icon {
+  right: 56px;
+}
+.container.right .icon {
+  left: 56px;
+}
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background-image: linear-gradient(90deg, #dbdbdb 0%, #6e6d6d 100%);
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #262626;
+}
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.punkte{
+  color: black;
+  text-decoration: none;
+}
+.punkte:hover{
+  text-decoration: underline black;
+}
+.namen{
+  color: white;
+  text-decoration: none;
+}
+.namen:hover{
+  text-decoration: underline white;
+}
+#farben{
+  background-image: linear-gradient(#000000 10%, #ff1100 50%, #ffcc00 90%);
+  color: white;
+}
+#farben h2{
+  color: white;
+}
+/* Footer*/
+#footer{
+  color: white;
+}
+#footer-text{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#footer-text a{
+  color: white;
+  padding-inline-start: 5%;
+}
+#footer-text a:hover{
+  color: black;
+}
+/*Novemberrevolution*/
+#november{
+  background-image: url(/content/schule/geschichte/zeitstrahl/november.png);
+  color: white;
+}
+#november h2{
+  color: white;
+}
+/*Kaiser dankt ab*/
+#kaiser{
+  background-image: url(/content/schule/geschichte/zeitstrahl/kaiser.png);
+  color: white;
+}
+#kaiser h2{
+  color: white;
+}
+/*KPD*/
+#kpd{
+  background-image: url(/content/schule/geschichte/zeitstrahl/kpd.png);
+  background-color: red;
+}
+/*Karl Liebknrecht*/
+#klieb{
+  background-image: url(/content/schule/geschichte/zeitstrahl/k.lieb-r.luxe.png);
+  background-color: #6e6d6d;
+  color: white;
+}
+#klieb h2{
+  color: white;
+}
+/*Weimarer Koalition*/
+#koalition{
+  background-image: url(/content/schule/geschichte/zeitstrahl/weikoa.png);
+  color: white;
+}
+#koalition h2{
+  color: white;
+}
+/*Reichswehr*/
+#reichswehr{
+  background-image: url(/content/schule/geschichte/zeitstrahl/wehr.png);
+  color: white;
+}
+#reichswehr h2{
+  color: white;
+}
+/*Haft*/
+#knast{
+  background-image: url(/content/schule/geschichte/zeitstrahl/gitter.png);
+  background-color:#dbdbdb;
+}
+/*Republik*/
+#bund{
+  background-image: url(/content/schule/geschichte/zeitstrahl/haende.png);
+}
+/*Link*/
+#verfassung{
+  align-items: center;
+}
+#button{
+  border-radius: 15px;
+  background-color: #262626;
+  width: 250px;
+  padding: 15px;
+}
+#button a{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+  .container.right {
+    left: 0%;
+  }
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #006E51 transparent transparent;
+  }
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}

@@ -1,0 +1,33 @@
+html{
+    background-color: #262626;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.center{
+    text-align: center;
+}
+#heading{
+    size: 50%;
+}
+fieldset{
+    border-width: 2px;
+    border-color: grey;
+}
+fieldset:hover{
+    background-color: aqua;
+    color: black;
+}
+#text{
+    padding-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,73 @@
+html{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(/content/schule/mathe/analysis/bilder/hintergrund.png);
+}
+#heading{
+    background-color: rgb(0, 238, 255);
+    font-size: 50px;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+}
+/*Hauptbereich*/
+#main{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+#schrift{
+    font-size: 400%;
+    background-color: #494949e1;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#head{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+#def{
+    font-size: 80%;
+}
+#funktionsbild{
+    width: 20%;
+    padding-left: 1%;
+}
+#funktionsbild2{
+    width: 10%;
+    padding-left: 1%;
+}
+/*Farben*/
+#red{
+    color: #fe0000;
+}
+/*Tabellen*/
+table{
+    width: 100%;
+    border-width: 1px;
+    border-color: black;
+}
+.name{
+    font-size: 60%;
+}
+.regel{
+    color:red;
+    font-size: 60%;
+}
+.beispiel{
+    color: white;
+    font-size: 60%;
+    text-align: right;
+}
+#formtab img{
+    margin: 1rem;
+}
+/*Bilder von Formeln*/
+.funktion{
+    width: 20%;
+    padding-top: 0.5%;
+    margin-right: 1rem;
+}

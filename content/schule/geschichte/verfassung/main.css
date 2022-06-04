@@ -1,0 +1,107 @@
+html{
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: Arial, sans-serif;
+}
+body{
+    margin: 0;
+}
+#heading{
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*Bildshow*/
+span img{
+    display:none;
+    max-height: 50vh;
+}
+span text{
+    display: none;
+}
+#bildcontent p{
+    font-size: 180%;
+    width: max-content;
+}
+#bildcontent p:hover{
+    text-decoration: underline;
+}
+p:hover ~ img,
+p:hover ~ text{
+    display: none;
+}
+#exe:hover{
+    color: #578d35;
+}
+#exe:hover ~ .exe img,
+#exe:hover ~ .exe text{
+    display: inline;
+}
+#legis:hover{
+    color: #6a99ab;
+}
+#legis:hover ~ .legis img,
+#legis:hover ~ .legis text{
+    display: inline;
+}
+#judi:hover{
+    color: #d0773d;
+}
+#judi:hover ~ .judi img,
+#judi:hover ~ .judi text{
+    display: inline;
+}
+/*Text*/
+#textcontent{
+    margin-top: 4rem;
+}
+#textcontent #text{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5rem;
+    
+}
+#textcontent p{
+    font-size: 120%;
+    margin: 0;
+}
+#textcontent #exe:hover{
+    color: #578d35;
+    text-decoration: underline #578d35;
+}
+#textcontent #legis:hover{
+    color: #6a99ab;
+    text-decoration: underline #6a99ab;
+}
+#textcontent #judi:hover{
+    color: #d0773d;
+    text-decoration: underline #d0773d;
+}
+/*Nach oben*/
+#top{
+    background-color: #4c8600;
+    width: 5.5rem;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 60%;
+    position: fixed;
+	bottom: 0;
+    font-size: 100%;
+    margin-bottom: 1.5rem;
+}
+#top:hover{
+    background-color: #3b6800;
+}
+#top a{
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}

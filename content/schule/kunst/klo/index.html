@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunstobjekt Klo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="fountain.png">
+    <link rel="manifest" href="manifest.jsn">
+
+    <script>
+       'use strict';
+    document.addEventListener('DOMContentLoaded', function () {
+	    var menu = document.querySelector('#context'),
+	    	menuState = 1;
+	    document.addEventListener('contextmenu', function (e) {
+	    	showContextMenu();
+	    	e.preventDefault();
+	    }, false);
+
+	function showContextMenu() {
+			if (menuState !== 0) 
+            {
+				menuState = 1;
+				menu.removeAttribute('hidden');
+			}
+			document.addEventListener('click', function (e) 
+            {
+				var button = e.which || e.button;
+				if (button === 1) {
+					hideContextMenu();
+				}
+			});
+			window.onkeyup = function (e) {
+				if (e.keyCode === 27) {
+					hideContextMenu();
+				}
+			}
+		}
+		  
+	function hideContextMenu() {
+		//if ( menuState !== 1 ) {
+		menuState = 1;
+		menu.setAttribute('hidden', 'true');
+		//}
+	}
+});
+    </script>
+
+</head>
+<body>
+    <!--Header-->
+    <div class="center">
+        <div id="header">
+            <h1><u>Ein Klo als Kunstobjekt ??</u></h1> 
+        </div>
+    </div>
+    <!--/Header-->
+
+        <!--Kunst ist absoluter Müll - Johanna 2022-->
+
+    <!--Rechtsklick-->
+    <div id="context" hidden>
+        <h2>Diese Seite wurde von Jan Albrecht erstellt</h2>
+    </div>
+    <!--/Rechtsklick-->
+
+    <!--Bild-->
+    <div id="klo1" class="center">
+            <img src="klo_1.jpg">
+    </div>
+    <!--/Bild-->
+
+    <!--Bildunterschrift-->
+    <div class="center">
+        <font color="white">Marcel Duchamp - Fontaine (Originalbild)</font>
+    </div>
+    <!--/Bildunterschrift-->
+
+    <br><br>
+
+    <!--Künstler-->
+    <fieldset class="center">
+        <h2><u>Erschaffer:</u></h2><br>
+        Marcel Duchamp<br>
+        (28. Juli 1887 bis 2. Oktober 1968) <br><br>
+        <u>oder: </u><br><br>
+        Elsa von Freytag-Loringhoven <br>
+        (12. Juli 1874 bis 15. Dezember 1927)<br><br>
+        (nicht zu 100% bekannt)
+
+    </fieldset>
+    <!--/Künstler-->
+
+    <br>
+
+    <!--readymade-->
+    <fieldset class="center">
+        <h2><u>Die Kunstepoche:</u></h2><br>
+        <div id="punkt">
+            • Name: Moderne Kunst "Kunst der Moderne" (avantgardistische Kunst)<br>
+            • Daten: ab ca. 1870 bis ins 20. Jahrhundert<br>
+        </div>
+
+    </fieldset>
+    <!--/readymade-->
+
+    <br>
+
+    <!--readymade-->
+    <fieldset class="center">
+        <h2><u>Was ist ein "Readymade"?</u></h2><br>
+        Ein Readymade ist ein Objekt, welches aus dem Alltag entstammt.<br>
+        In diesem Fall geht es um ein handelsübliches Urinal aus 1917.<br>
+
+    </fieldset>
+    <!--/readymade-->
+
+    <br>
+
+    <!--Beschreibung-->
+    <fieldset class="center">
+        <h2><u>Bildbeschreibung :</u></h2><br>
+        <div id="punkt">
+            • handelsübliches Urinal aus dem Jahr 1917<br>
+            <div id="unterpunkt">
+                ◦ um 90° gedreht<br>
+                ◦ „R. Mutt“ (Produzent) auf dem unteren Rand<br>
+            </div>
+            • nur ein Originalbild existiert<br>
+            • wurde nur 1x bei der "Society of Independent Artists" in New York ausgestellt<br>
+            • Kunstwerk gilt seit dem als verschollen<br>
+            • es gibt viele Repliken<br>
+            • Grund für das Werk: <br>
+            <div id="unterpunkt">
+                → Provokation der Kunstwelt<br>
+                → zerstören der Kunstwelt<br>
+                (Zitat von Marcel Duchamp)
+  
+            </div>
+        </div>
+    </fieldset>
+    <!--/Beschreibung-->
+
+    <br>
+
+    <!--Kunst-->
+    <fieldset class="center">
+        <h2><u>Was ist Kunst?</u></h2><br>
+        <div id="punkt">
+            • Laut Theodor Adorno:<br>
+            <div id="unterpunkt">
+            ◦"Kunst [...] sperrt sich der Definition" <br>
+            </div><br>
+
+            • Laut Pablo Picasso:<br>
+            <div id="unterpunkt">
+            ◦ "Wenn ich das wüsste, würde ich es für mich behalten"<br>
+            </div><br>
+
+            • Laut El Lissitzky:<br>
+            <div id="unterpunkt">
+            ◦ "Wenn du mich fragst, so weiß ich es nicht: wenn du mich nicht fragst, so weiß ich es"<br>
+            </div><br>
+
+            • Laut Vincent van Gogh:<br>
+            <div id="unterpunkt">
+            ◦ "Kunst - Das ist der Mensch"<br>
+            </div><br>
+    </div>
+    </fieldset>
+    <!--/Kunst-->
+
+    <br><br><br><br>
+
+    <!--Quellen-->
+    <div class="center">
+        <a href="quellen.html" target="_blanck">
+            <font color="white" size="5">
+                <div id="link">
+                    Quellen
+                </div>
+            </font>
+        </a>
+    </div>
+    <!--Quellen-->
+    
+    <br><br><br><br><br><br>
+
+    <!--Footer-->
+    <div id="footer" class="center">
+        hier kannst du das Handout als PDF runterladen:
+        <a href="handout.pdf" target="_blanck">
+            <font color="white">
+                <div id="link">
+                    Download
+                </div>
+            </font>
+        </a>
+    </div>
+    <!--/Footer-->
+</body>
+</html>
