@@ -1,16 +1,10 @@
 Need to to:
     /index.html:
-        Navbar:
-            projects
-            socials
-            news (new projects)
-            für die Schule (Projekte rein für die Schule.. (Geschichte, Kunst, Physik,..))
-            setup
         Content:
             latest projects
             who i am
     /projects.html
-        Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer) 
+        Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer bei Homburgschule.de) 
     /socials.html
         verändern der CSS von https://jans.links.netlify.app
     /news.html

@@ -1,0 +1,35 @@
+#buttons{
+    text-align: center;
+    margin-top: 5rem;
+}
+.button{
+    width: 10%;
+    min-width: 5rem;
+    border-radius: 10px;
+    border: solid black 1px;
+    min-height: 3rem;
+    font-size: 180%;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button span{
+    display: none;
+}
+.button:hover span{
+    display: grid;
+}
+#button1{
+    margin-right: 5%;
+    background-color: rgb(0, 153, 20, 0.808);
+}
+#button1:hover{
+    background-color: rgb(0, 153, 20);
+}
+#button2{
+    background-color: rgba(255, 81, 0, 0.808);
+}
+#button2:hover{
+    background-color: rgba(255, 81, 0);
+}
