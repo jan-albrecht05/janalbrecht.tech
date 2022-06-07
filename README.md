@@ -10,7 +10,7 @@ Need to to:
    - [x] /socials.html
        - verändern der CSS von https://jans.links.netlify.app
    - [ ] /news.html
-       - Beuheite üder mich.. keine Ahnung
+       - Neuheiten üder mich.. keine Ahnung
    - [ ] /mysetup.html
        - Sharkoon TG4-RGB
        - Asus ROG-Strix B-450 f Gaming II
