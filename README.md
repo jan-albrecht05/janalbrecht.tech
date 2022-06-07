@@ -1,11 +1,11 @@
 # janalbrecht.tech
 Need to to:
- 
-    - [ ] /index.html:
+
+   - [ ] /index.html:
        - Content:
-           - [ ] latest projects
-           - [ ] who i am
-    - [ ] /projects.html
+          - [ ] latest projects
+          - [ ] who i am
+   - [ ] /projects.html
        - Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer bei Homburgschule.de) 
    - [x] /socials.html
        - verändern der CSS von https://jans.links.netlify.app
