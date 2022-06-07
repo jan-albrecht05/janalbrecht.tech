@@ -1,16 +1,17 @@
 # janalbrecht.tech
 Need to to:
-    -[ ]/index.html:
+ 
+    - [ ] /index.html:
        - Content:
-           - []latest projects
-           - []who i am
-    -[ ]/projects.html
+           - [ ] latest projects
+           - [ ] who i am
+    - [ ] /projects.html
        - Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer bei Homburgschule.de) 
-   - [ ]/socials.html
+   - [ ] /socials.html
        - verändern der CSS von https://jans.links.netlify.app
-   - [ ]/news.html
+   - [ ] /news.html
        - Beuheite üder mich.. keine Ahnung
-   - [ ]/mysetup.html
+   - [ ] /mysetup.html
        - Sharkoon TG4-RGB
        - Asus ROG-Strix B-450 f Gaming II
        - AMD Ryzen 5
