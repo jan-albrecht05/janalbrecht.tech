@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Albrecht</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="icon" href="/bilder/Profilbild.png">
+	<script>
+		function myFunction() {
+		  	var x = document.getElementById("myTopnav");
+		  	if (x.className === "topnav") {
+				x.className += " responsive";
+		  	} else {
+				x.className = "topnav";
+		  	}
+		}
+	</script>
+</head>
+<body>
+    <div id="main">
+        <div id="navbar" style="position: sticky; top: 0;">
+            <div class="topnav" id="myTopnav">
+                <a href="#">Home</a>
+                <div id="right">
+                    <a href="/content/projects.html">alle Projekte</a>
+                    <a href="/content/setup/setup.html" class="active">Setup</a>                    
+                    <div class="dropdown">
+                      	<button class="dropbtn">
+                            für die Schule ↓
+                            <i class="fa fa-caret-down"></i>
+                      	</button>
+					<!--Dropdown-->
+                      	<div class="dropdown-content">
+                        	<a href="/content/schule/kunst/klo/index.html" target="_blank">"Fontain" (Kunst)</a>
+                        	<a href="/content/schule/physik/newton/index.html" target="_blank">Newton (Physik)</a>
+                        	<a href="/content/schule/mathe/analysis/index.htm" target="_blank">Analysis (Mathe)</a>
+                        	<a href="/content/schule/geschichte/verfassung/index.html" target="_blank">Verfassung 1919 (Geschichte)</a>
+                        	<a href="/content/schule/geschichte/zeitstrahl/index.html" target="_blank">Zeitstrahl 1918 - 20 (Geschichte)</a>
+                        	<a href="/content/schule/int/bewerbung/index.htm" target="_blank">Bewerbung (Intensivierung)</a>
+                      	</div>
+                    </div> 
+                    <a href="/content/news/news.html">News</a>
+                    <a href="/content/socials/socials.html">Socials</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+            </div>              
+        </div>
+		<div id="content">
+			
+		</div>
+    </div>
+</body>
+</html>
