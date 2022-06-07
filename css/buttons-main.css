@@ -15,11 +15,11 @@
     text-decoration: none;
     color: black;
 }
-.button span{
+.button #span{
     display: none;
 }
-.button:hover span{
-    display: grid;
+.button:hover #span{
+    display: inline-block;
 }
 #button1{
     margin-right: 5%;
