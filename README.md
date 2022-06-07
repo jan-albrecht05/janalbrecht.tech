@@ -1,6 +1,5 @@
 # janalbrecht.tech
 Need to to:
- 
     - [ ] /index.html:
        - Content:
            - [ ] latest projects
