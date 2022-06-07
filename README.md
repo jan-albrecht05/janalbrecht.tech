@@ -7,7 +7,7 @@ Need to to:
            - [ ] who i am
     - [ ] /projects.html
        - Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer bei Homburgschule.de) 
-   - [ ] /socials.html
+   - [x] /socials.html
        - verändern der CSS von https://jans.links.netlify.app
    - [ ] /news.html
        - Beuheite üder mich.. keine Ahnung
