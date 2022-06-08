@@ -1,6 +1,9 @@
 :root{
     --gray: #262626;
 }
+#navbar{
+    width: 99vw;
+}
 .topnav{
     overflow: hidden;
     background-color: #333;

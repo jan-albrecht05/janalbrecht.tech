@@ -12,6 +12,8 @@ Need to to:
    - [ ] /news.html
        - Neuheiten üder mich.. keine Ahnung
    - [ ] /mysetup.html
+       - Sharkoon TG4- RGB
+       - ROG Strix b-450 f Gaming II
        - AMD Ryzen 5
        - Nvidia Geforce RTX 3060 (monofan)
        - 2x 8GB G.Skill RAM
