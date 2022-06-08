@@ -1,0 +1,28 @@
+#content{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.733);;
+}
+#fieldsets{
+    margin: 2%;
+}
+legend{
+    background-color: white;
+    width: 3%;
+    min-width: 2.5rem;
+    border-radius: 15px;
+    margin-left: 48%;
+}
+legend img{
+    width: 80%;
+    min-width: 2rem;
+    padding-top: 8%;
+}
+fieldset{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    border: solid 1px black;
+}
