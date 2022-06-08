@@ -1,0 +1,49 @@
+#equip{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+table{
+    margin-left: 10%;
+}
+img{
+    min-width: 3.5rem;
+    margin: 0.5rem;
+    width: 100%;
+}
+#list{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 15px;
+    list-style: none;
+}
+.left,
+.right{
+    display: flex;
+}
+.left .bild{
+    width: 30%;
+}
+.right .bild{
+    width: 50%;
+}
+.bild img{
+    width: 20%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 15px;
+    margin-top: 1%;
+}
+.text{
+    color: #262626;
+    padding-left: 5%;
+    width: 50%;
+    text-align: left;
+    margin-top: 5%;
+}
+.right .text{
+    margin-left: 35%;
+}
