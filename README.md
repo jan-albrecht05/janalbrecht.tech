@@ -3,15 +3,15 @@ Need to to:
 
    - [ ] /index.html:
        - Content:
-          - [ ] latest projects
+          - [x] latest projects
           - [ ] who i am
-   - [ ] /projects.html
+   - [x] /projects.html
        - Liste mit allen geschriebenen Websites (mit Kuzrbeschreibung, Design wie Fächer bei Homburgschule.de) 
-       - [ ] kleine Icons für jedes Projekt
+       - [x] kleine Icons für jedes Projekt
    - [x] /socials.html
        - verändern der CSS von https://jans.links.netlify.app
-   - [ ] /news.html
-       - Neuheiten üder mich.. keine Ahnung
+   - [x] /news.html
+       - Neuheiten üder mich.. Neuheiten über die Seite
    - [x] /mysetup.html
        - [x] Sharkoon TG4- RGB
        - [x] ROG Strix b-450 f Gaming II

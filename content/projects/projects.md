@@ -1,25 +1,25 @@
 meine Seiten:
-    - [ ] nxt-test
+    - [x] nxt-test
+        - [x] bild
+        - [x] text
+    - [x] verfassung
+        - [x] bild
+        - [x] text
+    - [x] deustchland 1918-1920
+        - [x] bild
+        - [x] text
+    - [x] linktree
         - [x] bild
         - [ ] text
-    - [ ] verfassung
+    - [x] analysis
         - [x] bild
-        - [ ] text
-    - [ ] deustchland 1918-1920
+        - [x] text
+    - [x] bewerbung
         - [x] bild
-        - [ ] text
-    - [ ] linktree
+        - [x] text
+    - [x] physik kraft
         - [x] bild
-        - [ ] text
-    - [ ] analysis
+        - [x] text
+    - [x] kunst klo
         - [x] bild
-        - [ ] text
-    - [ ] bewerbung
-        - [x] bild
-        - [ ] text
-    - [ ] physik kraft
-        - [x] bild
-        - [ ] text
-    - [ ] kunst klo
-        - [x] bild
-        - [ ] text
+        - [x] text
