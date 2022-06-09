@@ -24,10 +24,10 @@
 }
 #button1{
     margin-right: 5%;
-    background-color: rgb(0, 153, 20, 0.808);
+    background-color: rgba(255, 81, 0, 0.808);
 }
 #button1:hover{
-    background-color: rgb(0, 153, 20);
+    background-color: rgba(255, 81, 0);
 }
 #button2{
     background-color: rgba(255, 81, 0, 0.808);
