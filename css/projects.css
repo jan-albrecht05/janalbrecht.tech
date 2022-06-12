@@ -2,8 +2,14 @@
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 5rem;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.733);;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+#content span{
+    color: black;
+    font-size: 200%;
+    padding-left: 2%;
 }
 #fieldsets{
     margin: 2%;
