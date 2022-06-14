@@ -36,10 +36,6 @@ html{
     width: 20%;
     padding-left: 1%;
 }
-#funktionsbild2{
-    width: 10%;
-    padding-left: 1%;
-}
 /*Farben*/
 #red{
     color: #fe0000;
@@ -64,6 +60,14 @@ table{
 }
 #formtab img{
     margin: 1rem;
+    width: 70%;
+}
+#formtab .img{
+    width: 20%;
+}
+#formtab .beschr{
+    width: 70%;
+    padding-left: 5%;
 }
 /*Bilder von Formeln*/
 .funktion{
