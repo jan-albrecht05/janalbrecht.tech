@@ -6,6 +6,9 @@ html{
     background-image: url(/bilder/backgrounds/background-stripes.png);
     background-attachment: fixed;
 }
+body{
+    margin: 0;
+}
 .center{
     text-align: center;
 }

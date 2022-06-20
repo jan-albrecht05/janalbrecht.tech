@@ -10,10 +10,12 @@ html{
     background-image: url(/bilder/backgrounds/background-stripes.png);
     background-color: #000427;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: var(--back);
     color: white;
     font-family: sans-serif;
+}
+body{
+    margin: 0;
 }
 #heading{
     background-color: var(--gray);
@@ -28,4 +30,10 @@ html{
 #heading span{
     color: #cccccc;
     font-size: 200%;
+}
+footer{
+    background-color: var(--gray);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
