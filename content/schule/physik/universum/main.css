@@ -85,18 +85,17 @@ body {
 }
 .container .date {
   position: absolute;
-  display: inline-block;
   top: calc(50% - 8px);
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
 }
 .container.left .date {
-  right: -130px;
+  right: -280px;
 }
 .container.right .date {
   left: -130px;
