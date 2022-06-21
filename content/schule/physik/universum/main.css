@@ -14,7 +14,7 @@ html{
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/content/schule/physik/universum/bilder/sternhintergrund.png);
+  background-image: url(/content/schule/physik/universum/bilder/sternhintergrund.jpg);
   background-repeat: no-repeat;
   background-color:  var(--background);
 }
