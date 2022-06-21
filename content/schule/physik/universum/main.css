@@ -1,0 +1,204 @@
+:root{
+    --background: #030106;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+    scrollbar-color:  #0025a0 #440058;
+    scrollbar-width: thin;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/content/schule/physik/universum/bilder/sternhintergrund.png);
+  background-repeat: no-repeat;
+  background-color:  var(--background);
+}
+#heading{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 180%;
+    position: sticky;
+    top: 0;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+.container.left {
+  left: 0;
+}
+.container.right {
+  left: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 16px;
+  z-index: 1;
+}
+.container.right::after {
+  left: -8px;
+}
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: black;
+  z-index: 1;
+}
+.container.right::before {
+  left: 8px;
+}
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.container.left .date {
+  right: -130px;
+}
+.container.right .date {
+  left: -130px;
+}
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  z-index: 1;
+}
+.container.left .icon {
+  right: 56px;
+}
+.container.right .icon {
+  left: 56px;
+}
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background-image: linear-gradient(90deg, #003cff 0%, #660085 100%);
+  border: rgb(58, 58, 58) solid 1px;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: white;
+}
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: #262626;
+    color: white;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 15%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-inline-start: 5%;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+  .container.right {
+    left: 0%;
+  }
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #006E51 transparent transparent;
+  }
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}
