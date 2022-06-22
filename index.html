@@ -11,7 +11,16 @@
 	<link rel="stylesheet" href="/css/projects.css">
 	<link rel="stylesheet" href="/css/cookies.css">
     <link rel="icon" href="/bilder/Profilbild.png">
-	<sript src="/js/navbar.js"></sript>
+	<script>
+		function myFunction() {
+		  	var x = document.getElementById("myTopnav");
+		  	if (x.className === "topnav") {
+				x.className += " responsive";
+		  	} else {
+				x.className = "topnav";
+		  	}
+		}
+	</script>
     <script src="/js/cookies.js"></script>
 </head>
 <body>
