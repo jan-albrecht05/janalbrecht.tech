@@ -1,0 +1,20 @@
+#cookies{
+    background-color: #ff5100;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#cookies button{
+    background-color: #cccccc;
+    border: solid 1px black;
+    font-size: 120%;
+    color: black;
+    border-radius: 10px;
+}
+#cookies button:hover{
+    background-color: #acacac;
+}

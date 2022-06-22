@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/navbar.css">
 	<link rel="stylesheet" href="/css/buttons-main.css">
 	<link rel="stylesheet" href="/css/projects.css">
+	<link rel="stylesheet" href="/css/cookies.css">
     <link rel="icon" href="/bilder/Profilbild.png">
 	<script>
 		function myFunction() {
@@ -20,6 +21,16 @@
 		  	}
 		}
 	</script>
+	<script>
+        function cookiefunction() {
+        var x = document.getElementById("cookies");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+    }
+    </script>
 </head>
 <body>
     <div id="main">
@@ -142,9 +153,14 @@
 			</content>
 		</div>
     </div>
+<!--Cookies-->
+	<div id="cookies">
+		Diese Website nutzt keine Cookies.
+		<button onclick="cookiefunction()">Sehr schön!</button>
+	</div>
 	<footer>
 		<b>Disclaimer:</b>
-		Für alle Inhalte verantwortlich: <b>Jan Albrecht</b>
+		Für alle Inhalte verantwortlich: <b>Jan Albrecht</b> 
 	</footer>
 </body>
 </html>
