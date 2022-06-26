@@ -1,15 +1,15 @@
 Was geschah bisher im Weltall:
-    Urknall vor 13.8 mrd. Jahre
+    -[x] Urknall vor 13.8 mrd. Jahre
         - hroßer Knall
         - kleines,sehr heißes Universum
-    erste Atome 400.000 Jahre später
+    -[x] erste Atome 400.000 Jahre später
         → Universum ist eine Gaswolke, die immer dichter wird
         → Materie entsteht (+Strukturen)
             Protonen, Neutronen und Elektronen bilden sich
             Stoffe entstehen:
                 - wasserstoff
                 - Helium
-    Materie zieht sich weiter zusammen
+    -[x] Materie zieht sich weiter zusammen
         →Sterne entstehen
             -neue Stoffe:
                 -Oxygen
@@ -17,7 +17,7 @@ Was geschah bisher im Weltall:
                 -Neon
                 -Stickstoff, etc.
         → Galaxien entstehen
-    Sterne explodieren 
+    -[x] Sterne explodieren 
             →neue Stoffe entstehen
         →aus Staubwolken entstehen neue Sterne
 
