@@ -3,7 +3,6 @@
     --darkred: rgb(151, 0, 0);
 }
 #message{
-    position: absolute;
     display: top;
     height: 50vh;
     max-height: 700px;
