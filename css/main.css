@@ -31,6 +31,25 @@ body{
     color: #cccccc;
     font-size: 200%;
 }
+#github{
+    background-color: var(--gray);
+    text-align: left;
+    margin-bottom: 1rem;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    font-size: 200%;
+}
+a #github{
+    text-decoration: none;
+    color: white;
+}
+#github img{
+    padding-top: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+}
 footer{
     background-color: var(--gray);
     padding-top: 1rem;
