@@ -4,7 +4,7 @@
 }
 #message{
     display: top;
-    height: 30vh;
+    height: calc(fit-content + 1rem);
     max-height: 700px;
     width: 90vw;
     max-width: 400px;
