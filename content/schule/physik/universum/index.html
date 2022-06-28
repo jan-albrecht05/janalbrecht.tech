@@ -7,9 +7,28 @@
     <meta name="theme-color" content="#440058">
     <title>Die Geschichte des Universums</title>
     <link rel="stylesheet" href="/content/schule/physik/universum/main.css">
+    <link rel="stylesheet" href="/css/message.css">
     <link rel="icon" href="/content/schule/physik/universum/bilder/explosion.png">
+    <script>
+       function cookiefunction() {
+    var x = document.getElementById("message");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+}
+    </script>
 </head>
 <body>
+    <div id="message">
+        <p id="head"><h2>Achtung</h2></p>
+        <span>
+            Diese Seite ist nicht für die Mobilabsicht konzipiert worden.
+            Bitte aktiviere "Desktop-Website" in deinem Mobilbrowser.
+        </span><br>
+        <button onclick="cookiefunction()">x</button>
+    </div>
     <div id="heading">
         <h1>Die Geschichte des Universums</h1>
     </div>
