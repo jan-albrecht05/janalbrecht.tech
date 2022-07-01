@@ -1,0 +1,60 @@
+:root{
+    --darkgrey: #262626;
+}
+html{
+    color: white;
+    font-family: sans-serif;
+    background-color: var(--darkgrey);
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#heading{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#ferien{
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    font-size: 180%;
+    margin-top: 5rem;
+    margin-left: 20%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+td{
+    background-color: var(--darkgrey);
+    height: 3rem;
+    width: 16%;
+}
+#wochentage{
+    background-color: rgb(163, 30, 30);
+    font-size: 150%;
+    font-weight: bold;
+}
+.wochentag{
+    background-color: rgb(179, 2, 2);
+}
+.wochentag:hover{
+    background-color: red;
+}
+.stunde{
+    background-color: #313131;
+    font-weight: bold;
+}
+.fach:hover{
+    background-color: #3d3d3d;
+}
