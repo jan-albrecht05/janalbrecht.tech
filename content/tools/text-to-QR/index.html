@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to QR</title>
+    <link rel="stylesheet" href="/content/tools/text-to-QR/style.css">
+    <link rel="icon" href="/content/projects/bilder/qrcode.png">
+    <script>
+        function generateQR(){
+            document.querySelector("#qr-image").style.display= "block";
+            let QRText = document.querySelector("#text").value;
+            if(QRText.trim().lenght == 0){
+                document.querySelector("#qr-image .error").innerHTML = "Please enter text";
+                document.querySelector("#img").style.display = "none";
+            }
+            else{
+                document.querySelector("#img").style.display = "block";
+                document.querySelector("#qr-image .error").innerHTML = "";
+                document.querySelector("#img").src = "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=" + QRText;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="text" placeholder="Gib einen Text ein.." class="input">
+        <button type="button" onclick="generateQR()">her mit dem QR- Code !!</button>
+        <div id="qr-image">
+            <span class="error"></span>
+            <br>
+            <img src="" id="img">
+        </div>
+    </div>
+</body>
+</html>
