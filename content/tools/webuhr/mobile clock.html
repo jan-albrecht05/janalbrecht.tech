@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="icon" href="/uhr.png">
+    <!--Script für die Uhr und das Datum-->
+    <script>
+        setInterval(showTime, 1000);
+        function showTime() 
+        {
+            let time = new Date();
+            //Datum
+            let day = time.getDate();
+            let month = time.getMonth() + 1;
+            let year= time.getFullYear();
+            day =  day < 10 ? "0" + day : day;
+            month =  month < 10 ? "0" + month : month;
+            //Zeit
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            let milsec = time.getMilliseconds();
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+            milsec = milsec < 10 ? "00" + milsec : milsec;
+            milsec = milsec < 100 ? "0" + milsec : milsec;
+            let currentTime = hour + ":" + min + ":" + sec; // + ":" + milsec;
+            document.getElementById("clock").innerHTML = currentTime;
+            document.getElementById("date").innerHTML = day + "." + month + "." + year;
+        }
+        showTime();
+    </script>
+    <!--Script für die Farbe-->
+    <script>
+        function colorfunction(){
+            let farbe = document.getElementById('color-input').value;
+            document.getElementById('clock').style.color = farbe;
+            document.getElementById('date').style.color = farbe;
+            document.getElementById('button').style.background = farbe;
+            if (farbe == "black"){
+                document.getElementById('button').style.color= "white";
+            }
+        }
+    </script>
+    <!--style-->
+    <style>
+        :root{
+            --schriftfarbe: red;
+        }
+        html{
+            background-color: black;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        #clock {
+            color: var(--schriftfarbe);
+            font-size: 130px;
+            text-align: center;
+        }
+        #date {
+            color: var(--schriftfarbe);
+            font-size: 30px;
+            text-align: center;
+        }
+        #input{
+            text-align: center;
+        }
+        #color-input{
+            border: 1px solid var(--schriftfarbe);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        #color-input:hover{
+            width: 82vw;
+            height: 5rem;
+            transform: .2s;
+        }
+        button{
+            background-color: var(--schriftfarbe);
+            font-size: 150%;
+            height: fit-content;
+            width: 30%;
+            min-width: max-content; 
+            border-radius: 15px;
+            border: 2px solid #262626;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+    <div id="date">01.01.1970</div>
+    <div id="input">
+        <input type="color" id="color-input" value="white"><br>
+        <button id="button" onclick="colorfunction()">Anwenden</button>
+    </div>
+</body>
+</html>
